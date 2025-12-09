@@ -21,7 +21,7 @@ The goal is to route all entities from the source (`##start`) to the sink (`##en
 ├── src/             # Source code (.c)
 ├── tests/           # Test files and graph examples
 ├── Makefile         # Compilation file
-└── gen_map.pl       # Graph generator (Perl)
+└── laby_gen.pl       # Graph generator (Perl)
 ```
 
 ## Compilation
