@@ -57,7 +57,7 @@ make re
 The program reads a graph description from standard input:
 
 ```bash
-./amazed < tests/graph_example.txt
+./amazed < tests/labyrinth
 ```
 
 ### Input Format
