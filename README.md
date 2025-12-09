@@ -1,8 +1,6 @@
 # Multi Path Solver
 
-## Description
-
-**Multi Path Solver** is a multi-agent pathfinding solution developed in C. The program efficiently routes multiple entities through a network from a source node to a destination node, minimizing total traversal time while respecting capacity constraints.
+A multi-agent pathfinding solution developed in C. The program efficiently routes multiple entities through a network from a source node to a destination node, minimizing total traversal time while respecting capacity constraints.
 
 This project implements advanced graph algorithms to find optimal path combinations and manage concurrent entity movement through a network of interconnected nodes.
 
@@ -163,20 +161,6 @@ The program implements a multi-phase approach:
 - Intermediate nodes have capacity of 1 (source and sink are unlimited)
 - All entities start at the source node
 - Goal: minimize total time to reach sink
-
-## Testing
-
-The `tests/` folder contains graphs of varying complexity:
-- **Simple**: Single path or minimal branching
-- **Medium**: Multiple disjoint paths
-- **Complex**: Dense graphs with many alternatives
-
-Generate custom test graphs:
-
-```bash
-perl gen_map.pl --flow-one --big > test_graph.txt
-./lem_in < test_graph.txt
-```
 
 ## Core Concepts
 
